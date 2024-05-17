@@ -15,10 +15,10 @@ body {
 .bg{
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
 }
 .bg1 {
     background-image: url(../img//bg-image-28.jpg);
-    
 }
 
 .bg2 {

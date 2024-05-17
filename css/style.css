@@ -14,10 +14,12 @@ body {
 
 .bg1 {
     background-image: url(../img//bg-image-28.jpg);
+    mask-repeat: no-repeat;
 }
 
 .bg2 {
     background-image: url(../img//bg-image-29.jpg);
+    mask-repeat: no-repeat;
 }
 
 .carousel-caption {

@@ -55,8 +55,9 @@ body {
 }
 
 #about,
-#team {
-    padding-top: 30px;
+#team,
+#servcies {
+    margin-top: 150px;
 }
 
 #about p {
@@ -80,7 +81,65 @@ body {
     bottom: 0;
     transition: height 300ms, opacity 300ms;
 }
+
 .team-overlay:hover {
     height: 100%;
     opacity: 0.615;
+}
+
+#servcies {
+    background-color: dimgrey;
+}
+
+#servcies .colms {
+    padding: 100px
+}
+
+.service-name {
+    font-weight: 600;
+}
+
+.line {
+    padding-bottom: 25px;
+}
+
+.line i {
+    padding: 2px;
+    font-size: 12px !important;
+}
+
+
+.behind-w {
+    position: relative;
+    z-index: 1;
+}
+
+.behind-w::after {
+    content: "W";
+    color: gray;
+    position: absolute;
+    top: -45px;
+    bottom: 0;
+    left: -10px;
+    right: 0;
+    z-index: -1;
+    font-size: 80px;
+}
+
+.behind-c {
+    position: relative;
+    z-index: 1;
+}
+
+.behind-c::after {
+    content: "C";
+    color: gray;
+    position: absolute;
+    top: auto;
+    bottom: -5;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    font-size: 90px;
+    opacity: .3;
 }

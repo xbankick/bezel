@@ -1,5 +1,6 @@
 body {
     height: 200vh;
+    font-family: 'Poppins';
 }
 
 .carousel-item img {
@@ -12,11 +13,12 @@ body {
     background-color: rgba(36, 36, 36, 0.684)
 }
 
-.bg{
+.bg {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 }
+
 .bg1 {
     background-image: url(../img//bg-image-28.jpg);
 }
@@ -25,16 +27,29 @@ body {
     background-image: url(../img//bg-image-29.jpg);
 }
 
-.carousel-caption {
-    font-family: 'Poppins';
-}
-
 .carousel-caption h1 {
-    font-size: 78px;
+    font-size: 90px;
     font-weight: 600;
 }
 
 
 .carousel-caption p {
     color: rgba(255, 255, 255, 0.816);
+}
+
+.nav-icons {
+    border-left: 1px solid #dee2e6;
+    padding-left: 10px;
+}
+
+.navbar {
+    border-bottom: solid rgba(255, 255, 255, 0.595) 0.5px;
+}
+
+.nav-item {
+    padding: 0px 10px;
+}
+
+.nav-link {
+    color: black;
 }

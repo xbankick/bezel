@@ -1,7 +1,7 @@
 body {
     height: 200vh;
     font-family: 'Poppins';
-    background-color: #dee2e6;
+    background-color: white;
 }
 
 .carousel-item img.trick {
@@ -59,7 +59,8 @@ body {
 #team,
 #servcies,
 #pricing,
-#happy-clients {
+#happy-clients,
+#contact {
     margin-top: 150px;
 }
 
@@ -148,12 +149,12 @@ body {
     opacity: .3;
 }
 
-.text-price{
+.text-price {
     font-weight: 600;
     font-size: 60px;
 }
 
-.best-value{
+.best-value {
     top: -10;
     right: 0;
     font-weight: 500;
@@ -163,6 +164,7 @@ body {
     border-radius: 20px;
 
 }
-.testi-img{
+
+.testi-img {
     width: 100px;
 }
